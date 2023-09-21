@@ -6,6 +6,8 @@ import Head from "next/head";
 
 const products = [{ name: "bag" }, { name: "shoe" }, { name: "socks" }]; // 通常ならpropsでmetaだし分けるよ
 
+import { WelcomeText } from '../components/WelcomeText';
+
 export default function Home() {
   return (
     <>
@@ -32,6 +34,7 @@ export default function Home() {
         </li>
       </ul>
       <p>welcome to index page</p>
+      <WelcomeText />
       <Image src="/favicon.ico" width="200" height="200" />
     </>
   )
