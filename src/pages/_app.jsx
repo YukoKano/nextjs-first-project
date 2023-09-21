@@ -1,5 +1,4 @@
 import '@/styles/reset.css'
-import '@/styles/globals.css'
 import Layout from '../components/Layout' // 各ページではなくここに入れると、stateの値が保持される
 // ページごとにgetLayoutを使えば異なるレイアウトにすることもできる
 
