@@ -7,7 +7,8 @@ export const Bag = () => {
   )
 }
 
-// export default Bag;
+export default Bag;
+
 // ↑このファイルはこれしか出しません、になる
 // defaultを入れないと、import {Bag} from...になって{}がいる　それ以外の名前で呼び出せない
 
